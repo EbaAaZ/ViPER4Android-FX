@@ -4,6 +4,7 @@
 # Initialization
 #################
 
+
 umask 022
 
 # echo before loading util_functions
@@ -30,4 +31,5 @@ mount /data 2>/dev/null
 [ $MAGISK_VER_CODE -lt 20400 ] && require_new_magisk
 
 install_module
-exit 0
+
+exit 1

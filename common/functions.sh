@@ -5,7 +5,9 @@
 ##########################################################################################
 
 cleanup() {
-  rm -rf $MODPATH/common 2>/dev/null
+  rm -rf $MOD
+  
+  PATH/common 2>/dev/null
 }
 
 abort() {
